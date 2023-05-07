@@ -1,0 +1,28 @@
+.btnContainer {
+    display: flex;
+    gap: 15px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    
+}
+
+.btn {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+    background: white;
+
+
+}
+
+.btn:hover {
+    background: #55acee;
+
+}
+
+.btn:active {
+    scale: 1.2;
+}
