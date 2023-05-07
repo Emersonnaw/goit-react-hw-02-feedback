@@ -32,7 +32,7 @@ export class App extends Component {
     );
     
   }
-
+ 
   countPositiveFeedbackPercentage = () => {
     const { good } = this.state;
     return (
